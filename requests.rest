@@ -1,0 +1,13 @@
+GET http://localhost:3000/data
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS3lsZTIiLCJpYXQiOjE2ODc1NDM4NTN9.brbwbFbN77jm07SqKMRqE0x4PtYwvG5TAdhhA2WmfYM
+
+
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "admin1"
+}
